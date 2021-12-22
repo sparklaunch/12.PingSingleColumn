@@ -21,4 +21,10 @@
         color: black;
         font-weight: 700;
     }
+    @media all and (max-width: 1440px) {
+        #title > h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+    }
 </style>

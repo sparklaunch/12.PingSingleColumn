@@ -30,4 +30,16 @@
         flex-direction: column;
         align-items: center;
     }
+    @media all and (max-width: 1440px) {
+        #app {
+            display: block;
+            height: auto;
+            padding: 100px 0;
+        }
+        #container {
+            width: 90%;
+            margin: auto;
+            align-items: stretch;
+        }
+    }
 </style>

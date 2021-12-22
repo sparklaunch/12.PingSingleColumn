@@ -84,4 +84,26 @@
     .warning {
         border: 1px solid rgb(204, 133, 141) !important;
     }
+    @media all and (max-width: 1440px) {
+        #form > form {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
+        #form > form > p {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        input[type="email"] {
+            margin: 0;
+            width: 100%;
+            border-color: rgb(201, 214, 248);
+            margin-bottom: 30px;
+            font-size: 18px;
+            padding: 15px 40px;
+        }
+        input[type="submit"] {
+            font-size: 20px;
+        }
+    }
 </style>

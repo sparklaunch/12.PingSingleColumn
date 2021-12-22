@@ -13,4 +13,10 @@
     #dashboard > img {
         width: 100%;
     }
+    @media all and (max-width: 1440px) {
+        #dashboard {
+            width: 100%;
+            text-align: center;
+        }
+    }
 </style>

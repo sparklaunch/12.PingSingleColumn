@@ -18,4 +18,16 @@
     #shares > ion-icon:not(:last-child) {
         margin-right: 5px;
     }
+    @media all and (max-width: 1440px) {
+        #shares {
+            text-align: center;
+        }
+        #shares > ion-icon {
+            padding: 12px;
+            font-size: 24px;
+        }
+        #shares > ion-icon:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
 </style>

@@ -5,5 +5,6 @@
 <style>
     #logo {
         margin-bottom: 50px;
+        text-align: center;
     }
 </style>
