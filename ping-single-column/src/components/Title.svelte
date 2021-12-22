@@ -6,7 +6,7 @@
 <style>
     #title {
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     #title > h1 {
         font-weight: 300;
