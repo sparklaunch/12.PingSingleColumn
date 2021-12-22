@@ -8,6 +8,7 @@
 <style>
     #dashboard {
         width: 600px;
+        margin-bottom: 50px;
     }
     #dashboard > img {
         width: 100%;

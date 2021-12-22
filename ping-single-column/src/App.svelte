@@ -3,6 +3,7 @@
     import Title from "./components/Title.svelte";
     import Form from "./components/Form.svelte";
     import Dashboard from "./components/Dashboard.svelte";
+    import Shares from "./components/Shares.svelte";
 </script>
 
 <div id="app">
@@ -11,6 +12,7 @@
         <Title />
         <Form />
         <Dashboard />
+        <Shares />
     </div>
 </div>
 
