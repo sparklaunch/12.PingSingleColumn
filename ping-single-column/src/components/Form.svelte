@@ -10,7 +10,7 @@
         color: rgb(200, 206, 217);
     }
     #form {
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
     input[type="email"] {
         border: 1px solid rgb(222, 227, 249);
