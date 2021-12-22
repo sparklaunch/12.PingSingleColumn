@@ -5,6 +5,9 @@
 </div>
 
 <style>
+    #shares {
+        margin-bottom: 15px;
+    }
     #shares > ion-icon {
         color: rgb(67, 112, 242);
         padding: 8px;

@@ -4,6 +4,7 @@
     import Form from "./components/Form.svelte";
     import Dashboard from "./components/Dashboard.svelte";
     import Shares from "./components/Shares.svelte";
+    import Footer from "./components/Footer.svelte";
 </script>
 
 <div id="app">
@@ -13,6 +14,7 @@
         <Form />
         <Dashboard />
         <Shares />
+        <Footer />
     </div>
 </div>
 
