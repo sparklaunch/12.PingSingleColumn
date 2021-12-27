@@ -7,7 +7,7 @@
     import Footer from "./components/Footer.svelte";
 </script>
 
-<div id="app">
+<main>
     <div id="container">
         <Logo />
         <Title />
@@ -16,10 +16,10 @@
         <Shares />
         <Footer />
     </div>
-</div>
+</main>
 
 <style>
-    #app {
+    main {
         height: 100%;
         display: flex;
         justify-content: center;
@@ -31,7 +31,7 @@
         align-items: center;
     }
     @media all and (max-width: 1440px) {
-        #app {
+        main {
             display: block;
             height: auto;
             padding: 100px 0;
